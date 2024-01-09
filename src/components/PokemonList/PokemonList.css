@@ -1,0 +1,22 @@
+.pokemon-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pokemon-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageControll button{
+    padding: 5px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: none;
+    font-weight: bold;
+}
+.pageControll button:hover{
+    background-color: #62594e;
+}
